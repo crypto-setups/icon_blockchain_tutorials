@@ -70,7 +70,7 @@ public Address getAddressOfId(BigInteger _id) {
 }  
 ```
 
-I believe that if you use the getter of a VarDB to all a "unknown" key, the getter will return null. 
+I believe that if you use the getter of a VarDB to get a "unknown" key, the getter will return null. 
 This will compile and deploy, but will give a error similiar as above when trying to execute in a transaction!
 
 You can handle this by using `getOrDefault()`, so for example:
