@@ -12,6 +12,6 @@ It would be great if ICON developers can do small write ups on specific subjects
 Try and search a topic within this repo using the Github search (top left) and choose 'in this repository'.
 
 ## How to use: adding write ups
-In the `/write_ups` folder, you can do a pull request to add tips/whatever.
+In the [write_ups](/write_ups) folder, you can do a pull request to add tips/whatever.
 
 I hope this helps! Let me know if you have any other questions.
