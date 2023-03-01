@@ -17,3 +17,5 @@ It also means that the transitive dependencies of this dependency will also be i
 This configuration is used when you only need the dependency at compile time. 
 This means that the dependency will be added to the classpath during compilation, but it will not be included in the final artifact. 
 It also means that the transitive dependencies of this dependency will not be included in your application.
+
+> In summary, if you want a dependency to be included in your application at runtime, use implementation. If you only need it at compile time, use compileOnly.
