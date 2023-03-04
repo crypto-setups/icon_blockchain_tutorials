@@ -9,7 +9,7 @@ On contract A there is a method that returns the number 5:
 ```java
 @External
 public BigInteger getFive() {
-	return BigInteger.valueOf(5);
+  return BigInteger.valueOf(5);
 }
 ```
 
